@@ -1,4 +1,6 @@
 /* 全体ベースの設定 */
+@charset "UTF-8";
+
 body {
     font-family: "Yu Gothic", "Helvetica", sans-serif;
     background-color: #f9f9f9;
@@ -11,133 +13,56 @@ body {
 
 /* 各要素に余白をつけて整える */
 main, section, header, footer, aside, nav {
-  padding: 20px;
+  max-width: 800px;
+  padding: 0px;
 }
 
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
 /* header */
 header {
   background-color: #FFFF00;
   color: black;
   text-align: center;
+  padding: 20px 0;
   }
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
 
   /* main */
 main {
-
-  /* ナビゲーション全体 */
-nav {
-  background-color: #33FFCC;
+  flex: 2;
+  background-color: #33ff99;
   padding: 10px 20px;
 }
 
-nav ul {
-list-style: none;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
+ /* aside */
+ aside {
+ flex: 5;
+  background-color: #ffcc99;
+  text-align: center;
+.table {
+display: inline-block;
 }
-
-nav li {
-  margin-right: 15px;
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: left;
 }
-
-nav a {
-  text-decoration: none;
-  color: #333;
-}
-
-nav a:hover {
-color: #4CAF50;
-font-weight: bold;
-}
-}
-
-/* セクション見出し */
-section h2 {
-  border-bottom: 2px solid #4CAF50;
-  padding-bottom: 5px;
-  margin-top: 30px;
-}
-
-/* 表 */
-table {
-  /* TODO: 表を横幅いっぱいに広げる */
-  
-  /* TODO: 境界線を1本化する */
-  
-  /* TODO: 上に余白を */
-}
-
-th, td {
-  /* TODO: 枠線をつけよう */
-  
-  /* TODO: セル内余白を設定 */
-  
-  /* TODO: 文字を左揃えに */
-}
-
-th {
-  /* TODO: 背景色で見出しを目立たせる */
-}
-
-/* フォーム全体 */
-form {
-  /* TODO: 上に余白を追加 */
-}
-
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-  /* TODO: 幅を100%にする */
-  
-  /* TODO: 内側余白を追加 */
-  
-  /* TODO: 下に余白を設定 */
-  
-  /* TODO: 枠線を設定 */
-  
-  /* TODO: 角丸にする */
-}
-
 button {
-  /* TODO: 背景色を設定 */
-  
-  /* TODO: 文字色を白に */
-  
-  /* TODO: 枠線なしにする */
-  
-  /* TODO: クリックしやすく余白を追加 */
-  
-  /* TODO: 角を丸める */
-  
-  /* TODO: カーソルを指マークに */
+display: block;
+margin-left: auto;
+}
 }
 
-button:hover {
-  /* TODO: 背景色を少し濃く変化 */
-}
-
-/* aside（補足情報） */
-aside {
-  /* TODO: 背景色を設定 */
-  
-  /* TODO: 左にカラーの線をつける */
-  
-  /* TODO: 外側余白 */
-  
-  /* TODO: 内側余白 */
-}
-
-/* フッター */
+/* footer */
 footer {
-  /* TODO: 背景色を設定 */
-  
-  /* TODO: 文字色を設定 */
-  
-  /* TODO: テキスト中央揃え */
-  
-  /* TODO: 内側余白 */
-  
-  /* TODO: 上に外側余白 */
+  background-color: #c0c0c0;
+  height: 30px;
 }
