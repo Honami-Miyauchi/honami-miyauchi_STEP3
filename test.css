@@ -1,0 +1,143 @@
+/* 全体ベースの設定 */
+body {
+    font-family: "Yu Gothic", "Helvetica", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 各要素に余白をつけて整える */
+main, section, header, footer, aside, nav {
+  padding: 20px;
+}
+
+/* header */
+header {
+  background-color: #FFFF00;
+  color: black;
+  text-align: center;
+  }
+
+  /* main */
+main {
+
+  /* ナビゲーション全体 */
+nav {
+  background-color: #33FFCC;
+  padding: 10px 20px;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+color: #4CAF50;
+font-weight: bold;
+}
+}
+
+/* セクション見出し */
+section h2 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* 表 */
+table {
+  /* TODO: 表を横幅いっぱいに広げる */
+  
+  /* TODO: 境界線を1本化する */
+  
+  /* TODO: 上に余白を */
+}
+
+th, td {
+  /* TODO: 枠線をつけよう */
+  
+  /* TODO: セル内余白を設定 */
+  
+  /* TODO: 文字を左揃えに */
+}
+
+th {
+  /* TODO: 背景色で見出しを目立たせる */
+}
+
+/* フォーム全体 */
+form {
+  /* TODO: 上に余白を追加 */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  /* TODO: 幅を100%にする */
+  
+  /* TODO: 内側余白を追加 */
+  
+  /* TODO: 下に余白を設定 */
+  
+  /* TODO: 枠線を設定 */
+  
+  /* TODO: 角丸にする */
+}
+
+button {
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 文字色を白に */
+  
+  /* TODO: 枠線なしにする */
+  
+  /* TODO: クリックしやすく余白を追加 */
+  
+  /* TODO: 角を丸める */
+  
+  /* TODO: カーソルを指マークに */
+}
+
+button:hover {
+  /* TODO: 背景色を少し濃く変化 */
+}
+
+/* aside（補足情報） */
+aside {
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 左にカラーの線をつける */
+  
+  /* TODO: 外側余白 */
+  
+  /* TODO: 内側余白 */
+}
+
+/* フッター */
+footer {
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 文字色を設定 */
+  
+  /* TODO: テキスト中央揃え */
+  
+  /* TODO: 内側余白 */
+  
+  /* TODO: 上に外側余白 */
+}
