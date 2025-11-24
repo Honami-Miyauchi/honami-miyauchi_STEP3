@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ↓ CSSファイルを読み込み -->
+  <link rel="stylesheet" href="../steps3/test.css">
+</head>
+
+<body>
+
+  <!-- ヘッダーの作成 -->
+  <div class="container">
+  <header>
+  <h2>世界一甘いお店</h2>
+  </header>
+
+  <!-- ナビゲーション（ul, li, aを使用） -->
+<div class="row">
+  <main>
+  <nav>
+    <ul>
+      <li><a href="#section1">トップ</a></li>
+      <li><a href="#section2">新着情報</a></li>
+      <li><a href="https://www.amazon.co.jp/s?k=%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84&language=ja_JP&adgrpid=1324914154824587&hvadid=82807377113213&hvbmt=be&hvdev=c&hvlocphy=140180&hvnetw=o&hvqmt=e&hvtargid=kwd-82808547474469%3Aloc-96&hydadcr=9543_13824868&jp-ad-ap=0&mcid=958e6939e4383ad9b06d6d5608a4e139&msclkid=701066d1fa591c35d1300ff517c1f328&tag=jpdeskstandse-22&ref=pd_sl_4d9l9c8s52_e">
+        おすすめのスイーツ</a></li>
+      <li><a href="#section4">お問い合わせ</a></li>
+    </ul>
+  </nav>
+</main>
+
+  <aside>
+    <!-- セクション：フォーム作成 -->
+    <div class="table">
+    <section id="section">
+      <table border="4">
+        <p></p>
+        <tr>
+            <th>お名前</th>
+            <th>
+              <input type="text" size="40"><br>
+            </th>
+        </tr>
+        <tr>
+            <th>お近くのお店</th>
+            <th>
+               <select id="place" name="place">
+                <option value="touhoku">北海道・東北</option>
+                <option value="kantou">関東</option>
+                <option value="chubu">中部</option>
+                <option value="kansai">関西</option>
+                <option value="chugoku">中国・四国</option>
+                <option value="kyuusyuu">九州・沖縄</option>                 
+            </select> 
+            </th>
+        </tr>
+        <tr>
+            <th>電話</th>
+            <th>
+              <input type="text" size="40"><br>
+            </th>
+        </tr>
+        <tr>
+            <th>電話番号</th>
+            <th>
+              <input type="text" size="40"><br>
+            </th>
+        </tr>
+        <tr>
+            <th>メールアドレス</th>
+            <th>
+              <input type="text" size="40"><br>
+            </th>
+        </tr>
+        <tr>
+            <th>お問い合わせ種別</th>
+            <th>
+                <input type="radio" id="goods" name="goods" value="goods">
+                <label for="goods">商品について</label>
+                <input type="radio" id="worker" name="worker" value="worker">
+                <label for="worker">従業員について</label>
+            </th>
+        </tr>
+        <tr>
+            <th>お問い合わせ内容</th>
+            <th>
+              <textarea rows="5" cols="30" placeholder="詳細を入力してください">
+              </textarea>
+            </th>
+        </tr>
+        </table>
+        <!--送信ボタンの作成-->
+        <p></p>
+        <button type="submit">送信</button>
+      </section>   
+      </form>
+  </aside>
+  </div>
+  <footer>  </footer>
+  </div>
+</div>
+</body>
+</html>
